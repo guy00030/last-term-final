@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+.logo{
+	width: 100%;
+}
+
+.home{
+	width:100%;
+	background-color: #656565;
+}
+
+.main{
+	background-color: rgba(225,225,225,0.8);
+	padding-bottom: 2px;
+}
+
+.main_image{
+	width: 100%;
+}
+
+.designers{
+	text-decoration: none;
+	font-family: 'Dosis', sans-serif;;
+	font-size: 1.25rem;
+	text-align: center;
+	margin-bottom: 2rem;
+	line-height: 3rem;
+}
+
+.about{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+	
+
+h1{
+	font-family: 'Tangerine', cursive;
+	font-size: 3rem;
+	text-align: center;
+	color: #FFF;
+	margin: 2rem auto;
+	background-color: rgba(102,51,51,.5);
+	height: 6rem;
+	padding-top: 2rem;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	padding: 1rem;
+	display: block;
+	text-align: center;
+	color: #666;
+	margin: 0 auto;
+	text-decoration: none;
+	font-family: 'Dosis', sans-serif;;
+	font-size: 1rem;
+	text-shadow: 1.5px 1.5px #FFF;
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,1)), color-stop(50%,rgba(219,219,219,1)), color-stop(51%,rgba(209,209,209,1)), 				color-stop(100%,rgba(254,254,254,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+	}
+	
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	color: #333;
+	background: #F9F9F9;
+	text-shadow: .5px .5px #303030;
+}
+
+.nav-btn{
+	background: #656565 url(../images/nav-icon.svg);
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{
+	background-color: #C8C8C8;
+}
+
+
+
+/* Toggle Nav */
+
+.nav-top{
+	display: none;
+}
+.nav-top[data-state="expanded"]{
+		display: block;
+}
+
+p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.25rem;
+	margin: 0 2rem 3rem 5%;	
+	text-align: center;
+	line-height: 1.5rem;
+}
+
+body{
+	background: url('../images/silk.jpg') no-repeat top center fixed;
+}
+
+footer{
+	background-color: #656565;
+	height: 10rem;
+	width: 100%;
+}
+
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+.hide-text{
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.social{ 
+	text-align: center;
+}
+	
+.follow-us{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5rem;
+	color: #FFF;
+	position:relative;
+	top: -20px;
+}
+
+.social a{
+	display:inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 1rem 0 1rem 1rem;
+	text-align: center;
+	padding-top: 0.8125rem;
+	margin-right: 1rem;
+	
+	-webkit-border-radius: 20px;
+	-mox-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	
+	color: #fff;
+	
+	/*background-color: #222; */
+	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
+	-moz-box-shadow: inset 0px 0px 0px 40px #222;
+	-ms-box-shadow: inset 0px 0px 0px 40px #222;
+	-o-box-shadow: inset 0px 0px 0px 40px #222;
+	box-shadow: inset 0px 0px 0px 40px #222;
+}
+
+.social a:hover,
+.social:active,
+.social:focus{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
+	-moz-box-shadow: inset 0px 0px 0px 3px #222;
+	-ms-box-shadow: inset 0px 0px 0px 3px #222;
+	-o-box-shadow: inset 0px 0px 0px 3px #222;
+	box-shadow: inset 0px 0px 0px 3px #222;
+	
+	color: #DEDEDE;
+}
+
+h2{
+	font-family: 'Tangerine', cursive;
+	text-align: center;
+	color: #FFF;
+	font-size: 3rem;
+	padding-top: 2rem;
+	background-color: rgba(102,51,51,.5);
+	height: 6rem;
+}
+
+h3{
+	font-family: 'Tangerine', cursive;
+	text-align: center;
+	color: #FFF;
+	padding-top: 1rem;
+	font-size: 2rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	background-color: rgba(102,102,102, 0.5);
+	height: 4rem;
+}
+
+.external{
+	text-align: center;
+	font-family: 'Tangerine', cursive;
+	font-size: 3rem;
+	color: #C30;
+	text-decoration: none;
+	margin-bottom:2rem;
+}
+
+a.external:hover{
+	color: #000;
+}
+	
+
+.copyright{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	display: block;
+	color: #000;
+	text-align: center;
+	padding-top: 1rem;
+	margin: 0;
+}
+
+
+.flexslider{
+		max-width: 300px;
+		display: block;
+		margin: 50px auto;
+}
+
+@media only screen and (min-width: 100em){
+	
+	.home {
+		display: block;
+		margin: 0 auto;
+		width: 50%;
+	}
+	.nav{
+		background-color: #000;
+		text-align: center;
+		width: 100%;
+		padding: 0;
+	}
+	
+	.nav li{
+		display: inline-block;
+		/*float: none;
+		width: auto;*/
+		margin: 0;
+	}
+	
+	.nav a, 
+	.nav a:link,
+	.nav a:visited{
+		border-top: 0;
+	}
+
+}
+	
+
+
+@media only screen and (min-width: 30em){
+	
+	.nav{
+		overflow: auto;
+	}
+	.nav li {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.nav-btn, 
+	.nav-btn:link,
+	.nav-btn:visited{
+		display: none;
+		margin: 0 auto;
+	}
+	
+	.nav-top{
+		display: block;
+		width: 100%;
+	}
+	
+	.logo{
+		margin: 0 auto;
+	}
+	
+	.main{
+		background-color: rgba(225,225,225,0.8);
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 38.25em){
+	.logo {
+		width: auto;
+	}
+	.home {
+		text-align: center;
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 53.25em){
+	.nav-top {
+		background-color:transparent;
+	}
+	.nav li {
+		display: inline-block;
+		width: 25%;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		float: left;
+	}
+	.nav a, 
+	.nav a:link,
+	.nav a:visited {
+		display: inline-block;
+		width: 100%;
+		margin: 0 auto;
+		padding: 8px 0;
+	}
+	
+	
+	h1{
+		height: 6rem;
+	}
+	
+	h2{
+		font-size: 4rem;
+		height: 7rem;
+	}
+	
+	h3{
+		font-size: 3rem;
+		height: 5rem;
+	}
+}
+
+
+	

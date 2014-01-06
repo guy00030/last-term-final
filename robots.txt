@@ -1,0 +1,7 @@
+# http://en.wikipedia.org/wiki/Robots_exclusion_standard
+# http://www.robotstxt.org
+
+# Always put a robot.txt file into your main website directory
+# Even if you are not denying access to anything
+
+sitemap http://

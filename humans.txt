@@ -1,0 +1,16 @@
+/*Team*/
+
+Developer/Designer: Shawna Guy
+Site: Vanilla (http://guy00030.site44.com/dsn1543/project-1/index.html)
+Facebook: https://www.facebook.com/pages/Vanilla-Boutique
+Location: 279 Richmond Road, Westboro, Ottawa, Ontario
+
+/*Thanks*/
+"           "
+
+/*Site*/
+
+Last Update: December 12 2013
+Standards: Html5, CSS3
+Components: Jquery, Modernizr ...
+Software: Adobe, Sublime Text 2, Live Reload
